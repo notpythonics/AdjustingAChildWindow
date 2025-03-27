@@ -83,7 +83,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE _, PSTR szCmd, int nCmd) {
 		NULL);
 
 	if (!hwnd) {
-		MessageBox(NULL, TEXT("COULDN'T REGISTER WINDOW CLASS"), TEXT(""), MB_OK);
+		MessageBox(NULL, TEXT("COULDN'T CREATE WINDOW"), TEXT(""), MB_OK);
 		return 1;
 	}
 
